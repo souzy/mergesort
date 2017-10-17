@@ -10,7 +10,7 @@ void msort(int a[], int x[], int s, int e) {
         int mid;
 	if (s >= e)
 	{
-	  return;
+	return;
 	    
 	}
 
@@ -29,13 +29,13 @@ void msort(int a[], int x[], int s, int e) {
 	// Merge the two parts into x[].
 	while (i <= mid && j <= e)
 	  {
-	       if (a[i] < a[j])
+	 if (a[i] < a[j])
 		{
 			x[k] = a[i];
 			k++;
 			i++;
 		}
-		else
+	else
 		{
 			x[k] = a[j];
 			k++;
@@ -75,9 +75,9 @@ void mergesort(int a[], int n) {
 }
 
 bool sorted(int a[], int n) {
-  for (int i = 0; i < n - 1; ++i)
+        for (int i = 0; i < n - 1; ++i)
     {
-      if (a[i] > a[i + 1])
+        if (a[i] > a[i + 1])
 	 return false;
     }
          return true;
