@@ -6,7 +6,7 @@ using namespace std;
        // s = start of range to sort
        // e = end of range to sort
 void msort(int a[], int x[], int s, int e) {
-        int mid;
+       int mid;
 	if (s >= e)
 	{
 		return;
