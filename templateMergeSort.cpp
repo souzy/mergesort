@@ -7,7 +7,7 @@ using namespace std;
 template <class T>
 void msort(T a[], int x[], int s, int e) {
   
-        int mid;
+       int mid;
 	if (s >= e)
 	{
 		return;  
